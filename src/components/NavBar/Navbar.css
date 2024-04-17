@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sacramento&display=swap");
+
+.active {
+  text-decoration: underline, solid;
+}
+
+/* Navbar.css */
+.menu-enter {
+  opacity: 0;
+}
+
+.menu-enter-active {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.menu-exit {
+  opacity: 1;
+}
+
+.menu-exit-active {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
