@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/NavBar/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./views/Home/Home";
 import OurStory from "./views/OurStory/OurStory";
 import PhotoGallery from "./views/Gallery/GalleryV2";
