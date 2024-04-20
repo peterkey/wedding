@@ -28,7 +28,7 @@ function App() {
             buttonText='I Understand. No Worries!'
             overlay>
             This site uses Cookies. See our{" "}
-            <a href='/Privacy&Cookies' className='text-[#7f1734] hover:text-[#ca7e93]'>
+            <a href='/Privacy-Cookies' className='text-[#7f1734] hover:text-[#ca7e93]'>
               Privacy Policy
             </a>{" "}
             to learn more!
@@ -42,7 +42,7 @@ function App() {
             <Route path='/RSVP' element={<WeddingRSVPForm />} />
             <Route path='/Contact' element={<Contact />} />
             <Route path='/Admin' element={<Admin />} />
-            <Route path='/Privacy&Cookies' element={<PrivacyPolicy />} />
+            <Route path='/Privacy-Cookies' element={<PrivacyPolicy />} />
           </Routes>
           <CountdownTimer />
           <Footer />
