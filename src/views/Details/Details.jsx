@@ -9,7 +9,7 @@ const Details = () => {
     <>
       <div className='heading text-center'>Order of the Day</div>
       <div className='grid__wrapper grid grid-cols-2 lg:grid-cols-4 gap-2'>
-        <img src='/images/stdavids.jpg' alt='St, Davids Church' />
+        <img src='public/images/stdavids.jpg' alt='St, Davids Church' />
         <div className='text__wrapper'>
           <div className='heading'>Ceremony</div>
           <div>
