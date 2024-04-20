@@ -3,13 +3,21 @@ import Food from "../../components/Food/Food";
 import Taxis from "../../components/Taxis/Taxis";
 import "./Details.css";
 import { FaLocationDot } from "react-icons/fa6";
+import stdavids from "../../images/stdavids.jpg";
+import Hensol from "../../images/Hensol.jpg";
+import toast from "../../images/toast.jpg";
+import people from "../../images/people.jpg";
+import cake from "../../images/cake.jpg";
+import platter from "../../images/platter.jpg";
+import wine from "../../images/wine.jpg";
+import dj from "../../images/dj.jpg";
 
 const Details = () => {
   return (
     <>
       <div className='heading text-center'>Order of the Day</div>
       <div className='grid__wrapper grid grid-cols-2 lg:grid-cols-4 gap-2'>
-        <img src='public/images/stdavids.jpg' alt='St, Davids Church' />
+        <img src={stdavids} alt='St, Davids Church' />
         <div className='text__wrapper'>
           <div className='heading'>Ceremony</div>
           <div>
@@ -20,9 +28,9 @@ const Details = () => {
           </div>
           <div className='timestamp'>11:00</div>
           <p>Please make your way to the church for 10:30.</p>
-          <p>Dess code - Wedding Formal</p>
+          <p>Dress code - Wedding Formal</p>
         </div>
-        <img src='/images/Hensol.jpg' alt='Hensol Castle' />
+        <img src={Hensol} alt='Hensol Castle' />
         <div className='text__wrapper'>
           <div className='heading'>Arrive @ Hensol Castle</div>
           <div>
@@ -33,32 +41,32 @@ const Details = () => {
           </div>
           <div className='timestamp'>12:15</div>
         </div>
-        <img src='/images/toast.jpg' alt='Hensol Castle' />
+        <img src={toast} alt='Hensol Castle' />
         <div className='text__wrapper'>
           <div className='heading'>Food + Speeches</div>
           <div className='timestamp'>14:30</div>
         </div>
-        <img src='/images/people.jpg' alt='Hensol Castle' />
+        <img src={people} alt='Hensol Castle' />
         <div className='text__wrapper'>
           <div className='heading'>Evening Reception</div>
           <div className='timestamp'>18:30</div>
         </div>
-        <img src='/images/cake.jpg' alt='Hensol Castle' />
+        <img src={cake} alt='Hensol Castle' />
         <div className='text__wrapper'>
           <div className='heading'>Cutting Cake + First Dance</div>
           <div className='timestamp'>19:30</div>
         </div>
-        <img src='/images/platter.jpg' alt='Hensol Castle' />
+        <img src={platter} alt='Hensol Castle' />
         <div className='text__wrapper'>
           <div className='heading'>Buffet</div>
           <div className='timestamp'>20:30</div>
         </div>
-        <img src='/images/wine.jpg' alt='Hensol Castle' />
+        <img src={wine} alt='Hensol Castle' />
         <div className='text__wrapper'>
           <div className='heading'>Bar Close</div>
           <div className='timestamp'>00:30</div>
         </div>
-        <img src='/images/dj.jpg' alt='Hensol Castle' />
+        <img src={dj} alt='Hensol Castle' />
         <div className='text__wrapper'>
           <div className='heading'>Music Ends</div>
           <div className='timestamp'>01:00</div>
