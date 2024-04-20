@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 
 const ImageGrid = ({ setSelectedImg }) => {
   const { docs } = useFirestore("images");
-  console.log(docs);
 
   return (
     <div className='my-5 mx-auto p-2 md:p-10 grid grid-cols-3 md:grid-cols-4 gap-1 lg:gap-8'>
