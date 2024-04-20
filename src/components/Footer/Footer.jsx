@@ -50,6 +50,11 @@ const Footer = () => {
                     <MdCookie className='inline mr-2' /> Privacy & Cookies
                   </Link>
                 </li>
+                <li>
+                  <Link to='/Admin' className='hover:underline hover:text-7f1374' onClick={handleClick}>
+                    <MdCookie className='inline mr-2' /> Admin
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className='w-full md:w-1/2 lg:w-1/3 px-4'>
