@@ -3,14 +3,14 @@ import Food from "../../components/Food/Food";
 import Taxis from "../../components/Taxis/Taxis";
 import "./Details.css";
 import { FaLocationDot } from "react-icons/fa6";
-import stdavids from "../../images/stdavids.jpg";
-import Hensol from "../../images/Hensol.jpg";
-import toast from "../../images/toast.jpg";
-import people from "../../images/people.jpg";
-import cake from "../../images/cake.jpg";
-import platter from "../../images/platter.jpg";
-import wine from "../../images/wine.jpg";
-import dj from "../../images/dj.jpg";
+import stdavids from "/images/stdavids.jpg";
+import Hensol from "/images/Hensol.jpg";
+import toast from "/images/toast.jpg";
+import people from "/images/people.jpg";
+import cake from "/images/cake.jpg";
+import platter from "/images/platter.jpg";
+import wine from "/images/wine.jpg";
+import dj from "/images/dj.jpg";
 
 const Details = () => {
   return (
