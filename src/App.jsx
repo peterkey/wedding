@@ -34,7 +34,7 @@ function App() {
             to learn more!
           </CookieConsent>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/' element={<Home />} index />
             <Route path='/OurStory' element={<OurStory />} />
             <Route path='/Details' element={<Details />} />
             <Route path='/Gallery' element={<PhotoGallery />} />
