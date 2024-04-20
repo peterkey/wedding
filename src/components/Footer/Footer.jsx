@@ -46,7 +46,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/Privacy&Cookies' className='hover:underline hover:text-7f1374' onClick={handleClick}>
+                  <Link to='/Privacy-Cookies' className='hover:underline hover:text-7f1374' onClick={handleClick}>
                     <MdCookie className='inline mr-2' /> Privacy & Cookies
                   </Link>
                 </li>
