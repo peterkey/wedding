@@ -13,7 +13,7 @@ const ContactForm = () => {
           <input type='hidden' name='_captcha' value='false' />
           <input type='hidden' name='_template' value='table' />
           <input type='hidden' name='_subject' value='New Message' />
-          <input type='hidden' name='_next' value='http://localhost:5173/' />
+          <input type='hidden' name='_next' value='https://williamskeywedding.co.uk' />
         </div>
         <div className='flex'>
           <div className='w-4/5 mb-8'>
