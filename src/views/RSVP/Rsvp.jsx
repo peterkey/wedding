@@ -339,7 +339,7 @@ const WeddingRSVPForm = () => {
                             onChange={(e) => handleInputChange(index, e)}
                             className='mr-2'
                           />
-                          <label className='mr-4'>Adult (18+)</label>
+                          <label className='mr-4'>Adult</label>
                           <input
                             type='checkbox'
                             name='isChild'
