@@ -12,10 +12,10 @@ const OurStory = () => {
               <div className='heading'>September 2020</div>
               <p>
                 Peter and Jessica matched on Tinder in September 2020. Jessica liked Peter&apos;s profile first and had
-                to wait for what felt like forever for Peter to like hers profile back. Eventually, Peter liked Jessica
+                to wait for what felt like forever for Peter to like her profile back. Eventually, Peter liked Jessica
                 and messaged her &quot;Do you want to play a game?&quot;. Much to Jessica&apos;s dismay (as Jessica
                 hates games) she agreed. The game Peter wanted to play was a question game to get to know each other.
-                The rules were you had to answer truthfully and the first one to refuse to answer or repeated a question
+                The rules were you had to answer truthfully and the first one to refuse to answer or repeat a question
                 would be the loser. After almost two months of playing and much to Peter&apos;s heartbreak, Jessica won.
               </p>
             </div>
@@ -25,7 +25,7 @@ const OurStory = () => {
                 After weeks of Peter asking, Jessica finally agreed to meet Peter. Before meeting up with Peter, Jessica
                 gave her mum and dad access to track her phone just in case Peter turned out to be a murderer. They met
                 on the 8th of November 2020 down Cardiff Bay. Jessica took Peter on her favourite walk around the Bay
-                and Penarth. They walked down to the wet lands where Peter was able to see Jessica&lsquo;s fear of
+                and Penarth. They walked down to the wetlands where Peter was able to see Jessica&lsquo;s fear of
                 fireworks in person. At the end of every date, Jessica would say &ldquo;I had fun doing whatever this
                 is&rdquo; which started to annoy Peter as he started to develop feelings for Jessica. Eventually, on the
                 12th of November 2020, Peter asked Jessica to be his girlfriend.
@@ -36,7 +36,7 @@ const OurStory = () => {
               <p>
                 In January, Peter met Emlyn, Fiona and Dave for the first time, and a few weeks later Peter met, Kirsty,
                 Jordan, Freya, Esme, and Natasha. In March, it was Jessica turn to met Peter&apos;s family. Jessica met
-                Gareth, Chris, Andy and Ian. With the approval from his family, Peter asked Jessica to move in with him.
+                Gareth, Chris, Andy and Ian. With the support from their families, Peter asked Jessica to move in with him.
                 They did some searching and found a lovely house in Llanharan and they got the keys to 14 Lonydd Glas.
               </p>
             </div>
