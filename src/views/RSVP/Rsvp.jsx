@@ -257,7 +257,7 @@ const WeddingRSVPForm = () => {
                   {guest.attending === "Yes" && (
                     <div>
                       <div className='mb-4'>
-                        <label className='block mb-1'>Song Request:</label>
+                        <label className='block mb-1'>Song Request (optional):</label>
                         <input
                           type='text'
                           name='songRequest'
@@ -397,7 +397,7 @@ const WeddingRSVPForm = () => {
                               </select>
                             </div>
                             <div className='mb-4'>
-                              <label className='block mb-1'>Song Request:</label>
+                              <label className='block mb-1'>Song Request (optional):</label>
                               <input
                                 type='text'
                                 name='songRequest'
@@ -456,7 +456,7 @@ const WeddingRSVPForm = () => {
                               </select>
                             </div>
                             <div className='mb-4'>
-                              <label className='block mb-1'>Song Request:</label>
+                              <label className='block mb-1'>Song Request (optional):</label>
                               <input
                                 type='text'
                                 name='songRequest'
@@ -492,7 +492,10 @@ const WeddingRSVPForm = () => {
               Add Another Guest
             </button>
           )}
-          <button onClick={submitForm} className='bg-[#7f1734] text-white py-2 px-4 rounded hover:bg-rose-700 mt-4'>
+          <button
+            type='submit'
+            onClick={submitForm}
+            className='bg-[#7f1734] text-white py-2 px-4 rounded hover:bg-rose-700 mt-4'>
             Submit RSVP
           </button>
         </>
