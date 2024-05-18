@@ -12,7 +12,7 @@ const Hero = () => {
             </h1>
             <button className='bg-[#e0e0e0] hover:bg-[#fbfbfb] hover:border-[#7f1734] border-2 hover:border-solid text-[14px] leading-[18px] py-2 px-5 mt-5 ml-5 rounded-sm font-[Cabin]'>
               <Link to='/RSVP'>
-                RSVP <span className='text-[#7f1734]'>before</span> 8th September 2024
+                RSVP <span className='text-[#7f1734]'>before</span> 8th August 2024
               </Link>
             </button>
           </div>
